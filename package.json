@@ -1,0 +1,25 @@
+{
+	"private": true,
+	"author": "",
+	"scripts": {
+		"dev": "umi dev",
+		"build": "umi build",
+		"postinstall": "umi setup",
+		"setup": "umi setup",
+		"start": "npm run dev",
+		"father:dev": "cd my-father-project && pnpm run dev && yalc publish",
+		"link": "cd my-father-project && pnpm run link",
+		"linkF": "yalc add firstone",
+		"refresh": "cd my-father-project && yalc push"
+	},
+	"dependencies": {
+		"firstone": "file:.yalc/firstone",
+		"umi": "^4.1.10"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.33",
+		"@types/react-dom": "^18.0.11",
+		"typescript": "^5.0.3"
+	},
+	"version": "0.0.1"
+}
