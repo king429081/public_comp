@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "firstone": {
+      "signature": "5133566b1f26dea0d62f8b7c72ce5886",
+      "file": true,
+      "replaced": "^0.0.1"
+    }
+  }
+}

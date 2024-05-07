@@ -1,5 +1,5 @@
 {
-	"private": true,
+	"private": false,
 	"author": "",
 	"scripts": {
 		"dev": "umi dev",
@@ -7,13 +7,12 @@
 		"postinstall": "umi setup",
 		"setup": "umi setup",
 		"start": "npm run dev",
-		"father:dev": "cd my-father-project && pnpm run dev && yalc publish",
-		"link": "cd my-father-project && pnpm run link",
-		"linkF": "yalc add firstone",
-		"refresh": "cd my-father-project && yalc push"
+		"father:dev": "cd component && pnpm run dev && yalc publish",
+		"link": "cd component && pnpm run link",
+		"linkF": "yalc add component",
+		"refresh": "cd component && yalc push"
 	},
 	"dependencies": {
-		"firstone": "file:.yalc/firstone",
 		"umi": "^4.1.10"
 	},
 	"devDependencies": {
